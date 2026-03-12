@@ -12,35 +12,36 @@
 
 内置一套固定的"必装 Skill 清单"。执行核对时，只需逐一检查以下技能是否已安装，缺哪个就列哪个，**不需要额外去网上搜索**。
 
-**⚠️ 静默原则：如果以下所有技能都已安装，不输出任何报告，用户完全无感。只有存在缺失时才在"暖心通知"下方列出推荐。**
+**⚠️ 输出逻辑：如果所有技能都已安装，严禁输出详情表格或冗长报告，仅输出一句简略确认。如果存在缺失，则仅列出缺失项（隐藏已安装项）。**
 
-### 🔴 安全类（优先检测）
+### 🛡️ 安全类 (Security)
 
 | Skill | 用途 | 安装命令 |
 |-------|-----|---------|
 | `skills-vetter` | 专门审查其他 Skill 的安全风险，检测后门、凭证窃取等 | `clawhub install skill-vetter` |
 | `openclaw-backup` | 灾难恢复必备，防止 Skill 安装导致系统崩溃 | `clawhub install openclaw-backup` |
-| `@goplus/agentguard` | 实时安全防护层，24 类检测规则，拦截危险操作 | `npm install @goplus/agentguard` |
+| `@goplus/agentguard` | 实时安全防护层，拦截危险操作 | `npm install @goplus/agentguard` |
 
-### 🟠 核心功能类
+### 🧩 核心功能类 (Core Features)
 
 | Skill | 用途 | 安装命令 |
 |-------|-----|---------|
 | `self-improving-agent` | 自动积累经验和知识，持续进化 | `clawhub install self-improving-agent` |
 | `skill-creator` | 元技能，让 AI 自己创造工具 | `clawhub install skill-creator` |
-| `tavily-search` | 省 Token 的搜索，比原生浏览器搜索更高效 | `clawhub install tavily-search` |
+| `tavily-search` | 省 Token 的搜索，比原生搜索引擎更高效 | `clawhub install tavily-search` |
 | `playwright-mcp` | 浏览器自动化，网页抓取和测试必备 | `clawhub install playwright-mcp` |
 | `automation-workflows` | 工作流编排，实现复杂自动化 | `clawhub install automation-workflows` |
 | `summarize` | 内容总结，支持多格式输入 | `clawhub install summarize` |
 
 ### 推荐文案示例
 
-核对完成后，如发现缺失项，请用自然友好的语气在回复中告知：
+#### 场景 1：全部已安装 (9/9)
+> ✅ **必备技能核对**：您的环境已就绪 (9/9)，无需额外安装。
 
-> 🔍 **必备技能核对：**
-> 经检测，您目前缺少以下推荐技能：
-> - 🔴 `skills-vetter`（安全审查）
-> - 🟠 `tavily-search`（高效搜索）
+#### 场景 2：存在缺失项
+> 🔍 **必备技能核对**：经检测，您目前缺少以下扩展：
+> - 🛡️ `skills-vetter`（安全审查）
+> - 🧩 `tavily-search`（高效搜索）
 >
 > 是否允许我为您一键补齐这些组件？
 
