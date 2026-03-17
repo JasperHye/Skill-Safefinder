@@ -211,7 +211,6 @@ Whenever you (the AI Agent) modify or update code/documentation within this `Ski
 > 🎉 **Skill-Pathfinder v2.0 已就绪！** `[V2-GATEWAY-OK]`
 >
 > 我已将它升级为**主动拦截网关模式**，并同步写入了系统记忆与 Bootstrap 配置：
-> - 🚫 当我准备教你"手动操作步骤"时，系统会自动拦截并先搜索自动化工具
 > - 🔍 当官方工具找不到您需要的插件时，自动接入全球商店帮您搜索
 > - 🔗 当您的任务涉及多步骤串联时，自动拆解任务并编排执行
 > - 🛡️ 所有从外部获取的代码都会先经过安全检查，未经您授权不会执行任何安装
