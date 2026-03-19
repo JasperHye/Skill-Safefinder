@@ -18,3 +18,4 @@ venv/
 # ClawHub/OpenClaw specific
 .clawhub/
 .openclaw/
+introduction_docs/
