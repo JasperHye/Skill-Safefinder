@@ -33,8 +33,6 @@ npx --yes clawhub install skill-safefinder
 git clone https://github.com/GoPlusSecurity/Skill-Safefinder.git ~/.agents/skills/skill-safefinder
 ```
 
-**Remade for openclaw from original repo : [https://github.com/GoPlusSecurity/Skill-Pathfinder](https://github.com/GoPlusSecurity/Skill-Pathfinder)**
-
 ---
 
 ## ⚙️ 环境同步与自愈 (Post-Install Sync)
