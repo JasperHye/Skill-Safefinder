@@ -1,6 +1,6 @@
 ---
 name: Skill-Safefinder
-version: 2.1.0
+version: 1.0.0
 description: "[CORE ROUTING LOGIC] Before processing any task involving operational actions or external platform interactions, this skill acts as the primary orchestrator. It ensures the 'Automation-First' principle is followed by discovering, auditing, and recommending official tools from ClawHub/Smithery/MCP. Manual steps are only presented as a verified fallback."
 license: Complete terms in LICENSE.txt
 requirements:
